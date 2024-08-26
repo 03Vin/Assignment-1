@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string str1, str2, concatenatedStr;
+
+    std::cout << "Enter the first string: ";
+    std::cin >> str1;
+    std::cout << "Enter the second string: ";
+    std::cin >> str2;
+
+   
+    concatenatedStr = str1 + str2;
+    
+    std::cout << "Concatenated string: " << concatenatedStr << std::endl;
+
+    return 0;
+}
